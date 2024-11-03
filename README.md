@@ -19,3 +19,7 @@ ${PROJECT}
 
 ### 실행환경
 V100 32gb 1장
+
+### 사전학습 모델 출처
+https://github.com/swz30/Restormer
+https://github.com/kkkls/FFTformer
