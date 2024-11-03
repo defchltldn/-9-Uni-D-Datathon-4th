@@ -11,7 +11,8 @@ ${PROJECT}
 ├── LBRB_train_제출용.ipynb
 ├── SCLE_train_제출용.ipynb
 ├── prerprocess.py
-└── submission_제출용.ipynb
+├── submission_제출용.ipynb
+└── requirements.txt
 ```
 -Classifier_제출용.ipynb, FFRF+RLUD_train_제출용.ipynb, LBRB_train_제출용.ipynb, SCLE_train_제출용.ipynb 각각 실행하여 모델 학습
 -submission_제출용.ipynb 을 통해 학습시킨 모델 가져와 추론 수행
