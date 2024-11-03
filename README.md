@@ -6,12 +6,15 @@
 ```
 ${PROJECT}
 ├── README.md
-├── preprocess.py
-├── model.py
-├── train.py
-└── test.py
+├── Classifier_제출용.ipynb
+├── FFRF+RLUD_train_제출용.ipynb
+├── LBRB_train_제출용.ipynb
+├── SCLE_train_제출용.ipynb
+├── prerprocess.py
+└── submission_제출용.ipynb
 ```
-- preprocess.py -> preprocess data : unzip후 데이터 경로를 알맞게 수정할 것
-- test.py -> Inference : Image Denoising Inference 코드
-- train.py -> Training Restormer 
-- model.py -> Implementation of Restormer 
+-Classifier_제출용.ipynb, FFRF+RLUD_train_제출용.ipynb, LBRB_train_제출용.ipynb, SCLE_train_제출용.ipynb 각각 실행하여 모델 학습
+-submission_제출용.ipynb 을 통해 학습시킨 모델 가져와 추론 수행
+
+### 실행환경
+V100 32gb 1장
